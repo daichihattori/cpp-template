@@ -1,0 +1,24 @@
+---
+BasedOnStyle: LLVM
+AccessModifierOffset: -4
+AllowShortLambdasOnASingleLine: true
+AlwaysBreakTemplateDeclarations: Yes
+BinPackArguments: false
+BinPackParameters: false
+BreakBeforeBinaryOperators: All
+BreakConstructorInitializers: BeforeColon
+ColumnLimit: 99
+CommentPragmas: "NOLINT:.*|^ IWYU pragma:"
+IncludeBlocks: Regroup
+IndentCaseLabels: true
+IndentPPDirectives: AfterHash
+IndentWidth: 4
+Language: Cpp
+SpaceAfterCStyleCast: true
+TabWidth: 4
+KeepEmptyLinesAtTheStartOfBlocks: false
+MaxEmptyLinesToKeep: 1
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+AllowShortBlocksOnASingleLine: Empty
