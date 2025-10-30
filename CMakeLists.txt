@@ -8,7 +8,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 
-include(gmp)
+include(FindGMP)
 include(googletest)
 
 add_library(fp STATIC src/fp.cpp)
